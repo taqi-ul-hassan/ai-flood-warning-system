@@ -150,14 +150,16 @@ p, label, div {
 
 /* Alert Box */
 .alert-high {
-    background: linear-gradient(145deg, #7F1D1D, #991B1B);
-    padding: 18px;
-    border-radius: 14px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    background: linear-gradient(145deg, #166534, #15803D);
+    padding: 25px;
+    border-radius: 18px;
+    color: #FFFFFF !important;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.35);
 }
 
 /* Dataframe */
@@ -429,12 +431,15 @@ else:
 st.markdown(f"""
 <div style="
 background:{alert_color};
-padding:20px;
-border-radius:15px;
-color:white;
-font-size:18px;
-line-height:1.8;
-margin-bottom:20px;
+padding:25px;
+border-radius:18px;
+color:#FFFFFF;
+font-size:20px;
+font-weight:600;
+line-height:1.9;
+margin-top:15px;
+margin-bottom:25px;
+box-shadow:0 4px 15px rgba(0,0,0,0.35);
 ">
 {alert_message}
 </div>
