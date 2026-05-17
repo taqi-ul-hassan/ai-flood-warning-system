@@ -120,10 +120,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Text */
-p, label, div {
+/* General Text */
+p {
     color: white;
 }
 
+/* Labels */
+label {
+    color: white !important;
+}
+
+/* Markdown Text */
+.stMarkdown {
+    color: white;
+}
 /* Cards */
 .card {
     background: linear-gradient(145deg, #172033, #1E293B);
@@ -433,7 +443,7 @@ st.markdown(f"""
 background:{alert_color};
 padding:25px;
 border-radius:18px;
-color:#FFFFFF;
+color:white;
 font-size:20px;
 font-weight:600;
 line-height:1.9;
@@ -441,7 +451,15 @@ margin-top:15px;
 margin-bottom:25px;
 box-shadow:0 4px 15px rgba(0,0,0,0.35);
 ">
+<pre style="
+color:white;
+font-size:18px;
+font-family:sans-serif;
+white-space:pre-wrap;
+margin:0;
+">
 {alert_message}
+</pre>
 </div>
 """, unsafe_allow_html=True)
 # ---------------- CHARTS ----------------
