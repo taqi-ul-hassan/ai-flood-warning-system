@@ -120,7 +120,6 @@ The project is deployed using Streamlit Cloud.
 - IoT river sensor integration
 - Deep learning flood forecasting
 - Mobile application support
-- Urdu voice emergency alerts
 
 ---
 
