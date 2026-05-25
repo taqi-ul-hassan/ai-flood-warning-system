@@ -82,7 +82,7 @@ flood-warning-system/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/ai-flood-warning-system.git
+git clone https://github.com/taqi-ul-hassan/ai-flood-warning-system.git
 ```
 
 ## Open Project
